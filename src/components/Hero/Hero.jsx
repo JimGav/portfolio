@@ -1,8 +1,8 @@
 import React from 'react'
 import "./Hero.css"
 import { FaGithub , FaLinkedin} from 'react-icons/fa';
-import profilePic from "../../assets/wolf.png"
-import CV from "../../assets/resume2024.pdf"
+import profilePic from "/wolf.png"
+import CV from "/resume2024.pdf"
 
 const Hero = () => {
 

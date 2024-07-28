@@ -1,10 +1,7 @@
 import React from 'react'
 import "./Portfolio.css"
 import { FaGithub } from "react-icons/fa"
-// import chessAI from "https://jimgav.github.io/portfolio/assets/chessai.PNG"
-// import game1 from https://jimgav.github.io/portfolio/assetsraylib_game.JPG"
-// import game2 from https://jimgav.github.io/portfolio/assetsraylib_arcade_game.JPG"
-// import sv from https://jimgav.github.io/portfolio/assetssorting_visualizer.PNG"
+
 
 const Portfolio = () => {
 
@@ -24,12 +21,12 @@ const Portfolio = () => {
             </p>
             <button onClick={() => location.href = "https://github.com/JimGav/ChessAI"}>Code <FaGithub size={40} /></button>
           </div>
-          <img src="https://jimgav.github.io/portfolio/assets/chessai.PNG" className='portfolio-item-img' ></img>
+          <img src="/chessai.PNG" className='portfolio-item-img' ></img>
         </div>
 
 
         <div className="portfolio-item">
-          {/* <img src={game1} className='portfolio-item-img' ></img> */}
+          <img src="/raylib_game.JPG" className='portfolio-item-img' ></img>
           <div className='portfolio-item-desc'>
             <h3>C++ game/Physics simulator using raylib library</h3>
             <p>This is a simple C++ game/Physics simulator I made using the <a href="https://www.raylib.com/">raylib</a> library. I started this project in order to practice C++, but also to 
@@ -46,7 +43,7 @@ const Portfolio = () => {
             </p>
             <button onClick={() => location.href = "https://github.com/JimGav/raylib-arcade_game"}>Code <FaGithub size={40} /></button>
           </div>
-          {/* <img src={game2} className='portfolio-item-img' ></img> */}
+          <img src="/raylib_arcade_game.JPG" className='portfolio-item-img' ></img>
         </div>
         <div className="portfolio-item">
           <div className='portfolio-item-desc'>
@@ -61,7 +58,7 @@ const Portfolio = () => {
             </div>
            
           </div>
-          {/* <img src={sv} className='portfolio-item-img' ></img> */}
+          <img src="/sorting_visualizer.PNG" className='portfolio-item-img' ></img>
         </div>
       </div>
     </section>
