@@ -12,7 +12,7 @@ const Portfolio = () => {
         <div className="portfolio-item">
         
           <div className='portfolio-item-desc'>
-            <h3>Chess Engine</h3>
+            <h3>hess Engine</h3>
             <p> Attending the course "Artificial Intelligence I", I was asked to solve <a href='http://ai.berkeley.edu/project_overview.html'> berkeley university's pacman project </a>
                 and it really ignited my curiosity. So as soon as I got the chance, I decided to build something similar for a game I love... chess. Even though I thought it would
                 be a lot harder than the pacman project, I managed to develop it up to a running stage pretty easily. But I do not stop here, I am aiming for something more advanced.
