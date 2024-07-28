@@ -1,0 +1,9 @@
+export {default as Navbar} from "./Navbar/Navbar.jsx";
+export {default as Hero} from "./Hero/Hero.jsx";
+export {default as About} from "./About/About.jsx";
+export {default as Education} from "./Education/Education.jsx";
+export {default as Portfolio} from "./Portfolio/Portfolio.jsx";
+export {default as Contact} from "./Contact/Contact.jsx"
+export {default as Course} from "./Course/CourseBlock.jsx"
+export {default as TechStack} from "./TechStack/TechStack.jsx"
+export {default as Footer} from "./Footer/Footer.jsx"

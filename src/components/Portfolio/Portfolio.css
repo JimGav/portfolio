@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+#portfolio {
+  color: #f9f9f9;
+  font-family: 'Montserrat', sans-serif;
+  /* padding: 5% 15%; */
+  display: grid;
+  justify-content: center;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 5% 15%;
+  padding: 0 5%;
+}
+#portfolio header{
+  margin: 5%;
+  text-align: center;
+}
+
+.portfolio-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10% 0;
+  border-bottom: 1px solid white;
+}
+
+.portfolio-item-img{
+  height: 300px;
+}
+.portfolio-item-desc{
+  margin: 0 30px;
+}
+.portfolio-item-desc h3{
+  margin: 5% 0;
+}
+
+.portfolio-item button{
+  display: flex;
+  justify-content: center;
+  gap:10px;
+  align-items: center;
+  border-radius: 5px;
+  padding: 0 5%;
+  margin: 20px 0;
+  cursor: pointer;
+}

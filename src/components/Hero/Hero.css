@@ -1,0 +1,66 @@
+.Hero {
+    display: grid;
+    justify-content: center;
+    padding: 10%;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+}
+
+#name {
+    color: rgb(248, 21, 5);;
+    font-size: 60px;
+}
+
+#occupation {
+    color: white;
+}
+
+.socials * {
+    margin: 20px;
+    cursor: pointer;
+}
+
+#github-icon {
+    border-radius: 100%;
+}
+
+#cv {
+    background-color: rgb(248, 21, 5);
+    border: none;
+    color: white;
+    padding: 10px 80px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#cv:hover {
+    background-color: rgb(131, 0, 0);
+}
+
+#profilePic {
+    height: 250px;
+    border-radius: 100%;
+    margin: 20px;
+    user-select: none;
+    justify-self: center;
+}
+
+@media (orientation:portrait) {
+    #profilePic {
+        height: 90px;
+    }
+
+    #name {
+        font-size: 20px;
+    }
+
+    #github-icon,
+    #linkedin-icon {
+        height: 30px;
+        margin: 10px;
+    }
+    #cv{
+        font-size: 10px;
+        padding: 8px 40px;
+    }
+}

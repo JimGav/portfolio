@@ -1,0 +1,137 @@
+{
+	"data": [
+		{
+			"course_name": "Intro To Programming",
+			"description": "General overview of computers and computer programming. Historical overview. Computer structure. Information handling on computers. Software and programming languages. Requirements of a procedural programming language. Executable programs. Compilation and linking. The C programming language. Programming environments for C. The GCC compiler. Examples of simple programs in C. Features and capabilities of C. Variables, constants, types, and declarations. Substitution commands, operators, and expressions. Control flow. Program structure, functions, and external variables. Scope and lifetime of variables. Recursion. Memory addresses, pointers, and arrays. Dynamic memory allocation. Strings. Arrays of pointers, pointers to pointers, and multidimensional arrays. Pointers to functions. Command line arguments. Enumerations, structs, self-referential structures (lists, binary trees), unions, bit fields, and creating new type names. Input and output. File handling. C preprocessor and macros. Sorting and searching algorithms for arrays. Guidelines for proper programming. Common programming mistakes in C.",
+			"passed": true,
+			"ECTS": 7,
+			"semester": 1
+		},
+		{
+			"course_name": "Discrete Mathematics",
+			"description": "Sets, propositions, induction, binary relations, functions, permutations, combinations, discrete probability, conditional probability, independent events, Bayes' theorem, numerical functions, asymptotic behavior of numerical functions.",
+			"passed": true,
+			"ECTS": 7,
+			"semester": 1
+		},
+		{
+			"course_name": "Linear Algebra",
+			"description": "The course covers both basic and advanced topics of Linear Algebra, which serve as essential background in all branches of the Natural Sciences. Introductory concepts, Matrices, Systems of Linear Equations, Vector Spaces, Linear Transformations, Linear Transformations and Matrices, Polynomials, Eigenvalues and Diagonalizability, Normal Forms, Diagonalization of Hermitian Matrices, Vector Spaces with Inner Product.",
+			"passed": true,
+			"ECTS": 6,
+			"semester": 1
+		},
+		{
+			"course_name": "Logic Design",
+			"description": "The course covers the following topics: introduction, complexity management, and digital systems technology, number systems, decimal, binary, and hexadecimal numbers, representations of positive and negative numbers, and arithmetic operations, logic gates, digital integrated circuits, and CMOS technology, principles of combinatorial logic, Boolean equations, Boolean algebra, and two-level logic circuits, use of XOR, NAND, NOR gates, and multilevel combinatorial logic, minimization of Boolean equations using Karnaugh maps and exploitation of don't care conditions, structural elements of combinatorial logic (multiplexers, demultiplexers, decoders, encoders), timing of combinatorial logic (propagation delay, contamination delay, and transitional pulses), latches, flip-flops, and registers, design of synchronous logic and finite state machines (Moore and Mealy), simple analysis of digital system timing, hardware description languages (HDL) for simulation and synthesis, arithmetic circuits (adders, subtractors, comparators, ALU unit, shifters, and rotators), sequential structural elements (counters, shift registers, scan chains), memory arrangements (ROM, RAM, DRAM, SRAM, register files), logic arrangements (PLA, FPGA).",
+			"passed": true,
+			"ECTS": 6,
+			"semester": 1
+		},
+		{
+			"course_name": "Intro to Computer Science and Telecommunications",
+			"description": "The main objective of the course is to familiarize students with fundamental concepts and thematic units of Computer Science and Telecommunications, such as the Turing Model and von Neumann Model, Storage and Data Management, Theory and Models of Computation, Operating Systems, Networking and the Internet, Software Technology, and Security.",
+			"passed": true,
+			"ECTS": 2,
+			"semester": 1
+		},
+		{
+			"course_name": "Calculus I",
+			"description": "Basic topological concepts, real numbers, sequences, series, functions (limit, continuity, elementary functions), definite integral (basic properties), derivative (basic properties), indefinite integral, generalized integral (calculation methods), power series.",
+			"passed": true,
+			"ECTS": 8,
+			"semester": 2
+		},
+		{
+			"course_name": "Computer Architecture I",
+			"description": "Introduction to computer technology, commands and representation levels, representation of numeric and non-numeric data, organization of a typical computer, Instruction Set Architecture (ISA) architecture, microarchitecture, RISC and CISC computers, MIPS ISA, registers, instruction format and encoding, addressing modes, arithmetic, logic, and data transfer operations, program flow control operations, hardware process support, stack usage, basic concepts of compilation, performance evaluation and understanding, performance measurement, factors affecting performance, performance evaluation, processor design, data path units, data path design, control unit design, implementation of a cycle, implementation of multiple cycles, microprogramming.",
+			"passed": true,
+			"ECTS": 7,
+			"semester": 2
+		},
+		{
+			"course_name": "Data Structures and Programming Techniques",
+			"description": "Pointers and linked representations in the C programming language, recursion, data structures and abstract data types, stacks, queues, introduction to algorithm analysis, lists and strings, trees, heaps, expression trees, binary search trees, AVL trees, m-way search trees, 2-3 trees, 2-3-4 trees, B-trees, red-black trees, hashing, disjoint sets, graphs and algorithms for graphs, sorting.",
+			"passed": true,
+			"ECTS": 7,
+			"semester": 2
+		},
+		{
+			"course_name": "Calculus II",
+			"description": "Vectors, vector functions in the plane and in space. Dot and cross product. Lines, planes, surfaces. Arc length, unit tangent vector. TNB reference system. Multivariable functions - derivatives. Limit - continuity.Partial derivatives. Chain rule, directional derivative, gradient vectors, tangent planes, linearization, differentials. Extrema, saddle points.Taylor series for multivariable functions.Curvilinear coordinate systems, metric, curvature, deviation, torsion.Multiple (double, triple) integrals, in Cartesian and other coordinates. Applications in computing areas, moments, centroids. Variable transformations (Jacobian determinants).Integration of vector fields. Line integrals and surface integrals. Independence of path, potential functions, and conservative fields. Green's, Gauss's, Stokes's theorems and applications.",
+			"passed": true,
+			"ECTS": 8,
+			"semester": 3
+		},
+		{
+			"course_name": "Object Oriented Programming",
+			"description": "Generally, about object-oriented programming and classes. The C++ programming language. Basic elements, namespaces, overloading, classes, objects, inheritance, composition, templates, abstract classes, exception handling, description of the standard library, description of the STL. Design and programming with C++. General description of the Java language. Other object-oriented programming languages. Theoretical topics related to objects.",
+			"passed": true,
+			"ECTS": 8,
+			"semester": 3
+		},
+		{
+			"course_name": "Signals and Systems",
+			"description": "Basic categories of signals, spectral representation of periodic and aperiodic signals, basic categories of systems, harmonic representation, constitutive models, system description with differential equations and finite difference equations, Fourier, Laplace, and Z transforms, Bode plots, stability, sampling, and quantization.",
+			"passed": true,
+			"ECTS": 7,
+			"semester": 3
+		},
+		{
+			"course_name": "Probabilities and Statistics",
+			"description": "Axioms of probability. Conditional probability and stochastic independence. Random variables, distribution and probability density functions. Distribution function of a random variable. Moments, specifically mean and standard deviation. Basic discrete and continuous distributions. Approximation of the sample mean by the theoretical mean and its distribution by the normal distribution. Parameter estimation, confidence intervals, and hypothesis testing.",
+			"passed": true,
+			"ECTS": 6,
+			"semester": 3
+		},
+		{
+			"course_name": "Artificial Intelligence I",
+			"description": "Introduction to Artificial Intelligence. Intelligent agents. Problem solving with search agents. Search strategies: breadth-first search, uniform-cost search, depth-first search, depth-limited search, iterative deepening depth-first search, bi-directional search. Heuristic search strategies: greedy best-first search, A*-search. Local search algorithms. Constraint satisfaction problems, solving constraint satisfaction problems with various variations of backtracking search. Agents for knowledge representation and reasoning. Propositional logic and first-order logic. Using propositional and first-order logic for knowledge representation. Knowledge bases and ontologies, examples from various applications. Reasoning. Modus ponens, unification, forward and backward chaining, resolution. Introduction to logic programming and the Prolog language.",
+			"passed": true,
+			"ECTS": 6,
+			"semester": 5
+		},
+		{
+			"course_name": "Algorithms and Complexity",
+			"description": "The course introduces the concepts of algorithm design and analysis, presenting the basic mathematical tools used to evaluate their performance. It describes search techniques in sets (union and find) and presents fundamental traversal techniques in graphs, namely breadth-first search (BFS) and depth-first search (DFS). It focuses on the three basic algorithm design methods: \"divide and conquer\", greedy algorithms, and dynamic programming. It analyzes the characteristics of each method and highlights practical problems effectively solved by each method. It defines decision problems and the classes P and NP. It describes the concept of reduction and identifies NP-complete and NP-hard problems.",
+			"passed": true,
+			"ECTS": 8,
+			"semester": 4
+		},
+		{
+			"course_name": "Communication Networks I",
+			"description": "Basic concepts and design principles of communication networks. Structure of the Internet, history of the Internet. Application layer (HTTP, FTP, e-mail, DNS, P2P, content distribution networks). Functions of the transport layer (TCP, UDP, reliable data transfer in TCP, flow control, congestion control). Network layer (routers, addressing, IP protocol, routing protocols). Generalized forwarding and SDN. Network management and SNMP. Data link layer (error detection techniques, multiple access protocols, local area networks (Ethernet, VLANs), virtual links (MPLS)).",
+			"passed": true,
+			"ECTS": 6,
+			"semester": 4
+		},
+		{
+			"course_name": "Communication Networks I Lab",
+			"description": "The course covers a large part of the topics related to the TCP/IP protocol stack of the Internet, such as: Construction of Ethernet cables - Organization, parameterization, and verification of connectivity of a local area network - Use of the Wireshark tool to capture data traffic (monitoring and display filters) - Remote access to computers (Remote Desktop, Telnet) - ARP protocol - IP, MAC addresses - Use of ping and netstat commands - Static routing - Operation of a computer as a router - Configuration of Cisco routers - Application of routing tables - Operation of routing protocols RIP, OSPF - Operation of TCP, UDP - Operation of DHCP, NAT protocols.",
+			"passed": true,
+			"ECTS": 2,
+			"semester": 4
+		},
+		{
+			"course_name": "Communication Systems",
+			"description": "Introduction to Telecommunication Systems, Overview of Signal Theory, Random Processes and Noise, Analog Communications (Amplitude and Phase Modulation), Conversion of Analog Signal to Digital and from Digital to Analog, Digital Modulation and Demodulation, Communication Systems Simulation Laboratory in MATLAB.The course focuses on communication systems covering the basic operational elements and fundamental signal processing techniques that govern them. In the first part of the course, it includes an overview of basic signal definitions and Fourier transformation, linear and time-invariant systems, convolution and correlation functions, the definition of bandwidth-limited signals, complex baseband equivalent and Hilbert transform. Also, it includes the definition of stochastic processes, the concepts of stationarity, ergodicity, autocorrelation, and cross-correlation, power spectral density, as well as thermal noise with its properties. Finally, the basic structural elements of communication systems are analyzed.The second part of the course focuses on analog communications and the study of generalized modulation and demodulation schemes, analyzing amplitude modulation (AM), phase modulation (PM), and frequency modulation (FM). Also, it describes basic electronic modulation and demodulation arrangements, and studies noise by analyzing its effect on amplitude modulation. Finally, the conversion of analog signals to digital and vice versa is described in detail, including the sampling theorem and Nyquist criterion, quantization, and PCM (pulse code modulation), DPCM (differential PCM), and Delta encoding.The last third part of the course focuses on digital communication systems, analyzing the additive white Gaussian noise (AWGN) channel and studying orthogonal signal representation, the Gram-Schmidt process, and basic constellations. A generalized digital receiver and demodulation and optimal detection in an AWGN channel are described in detail. Finally, basic digital modulation schemes are presented, and their behavior is studied.",
+			"passed": false,
+			"ECTS": 7,
+			"semester": 4
+		},
+		{
+			"course_name": "Database Design and Usage",
+			"description": "The course \"Database Design and Usage\" is the first of the two core courses in Databases in the Undergraduate Program and covers topics related to the upper layers of a database system, namely the \"logical\" and \"semantic\" levels, as well as external interaction. (The second course is \"Implementation of Database Systems,\" in the 5th semester, covering topics related to the lower layers, i.e., the \"physical\" level, with indexes, etc.).Specifically, the course covers the following: Entity-Relationship (ER) model, designing database schemas with the ER model, relational data model, translation from ER to the relational model, studying relational schemas focusing on functional dependencies, normalization forms of relational schemas, SQL language, QBE language, communication forms, system catalogs, views, constraints, developing applications with embedded SQL, developing applications over standard communication interfaces with databases (python, and perhaps PHP, JDBC), databases, and the internet. In addition to covering the material, the course includes work with 3 mandatory exercises and a final exam, the combination of which will determine the final grade.",
+			"passed": true,
+			"ECTS": 7,
+			"semester": 4
+		},
+		{
+			"course_name": "Theory of Computation",
+			"description": "The course covers basic and advanced topics in Theory of Computation, which are essential background for various branches of Theoretical Computer Science. Typical languages. Deterministic and non-deterministic finite automata. Regular languages. Context-free languages. Non-deterministic pushdown automata. Turing machines. Recursive languages. Recursively enumerable languages. The Church-Turing thesis. Decidability. Introduction to computational complexity.",
+			"passed": true,
+			"ECTS": 6,
+			"semester": 6
+		}
+	]
+}

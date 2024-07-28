@@ -1,0 +1,23 @@
+.TechStack{
+	display: block;
+	justify-content: center;
+	text-align: center;
+	color:#f9f9f9;
+	margin:  5%;
+	
+}
+.icons{
+	display: flex;
+	justify-content: center;
+	gap:20px;
+	margin-top:2%;
+}
+
+.icons-border{
+	border: 1px solid #f9f9f9;
+	padding: 10px;
+	border-radius: 25px;
+}
+.icons-border *{
+	margin: 0 10px;
+}

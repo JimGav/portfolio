@@ -1,0 +1,61 @@
+#about {
+    background-color: #f9f9f9;
+    color:rgb(19, 19, 19);
+    padding: 10% 20%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position:relative;
+    display: grid;
+    justify-content: center;
+    
+}
+#about h3{
+    margin: 2% 0;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+}
+
+.about-content {
+    text-align: center;
+    color:rgb(19, 19, 19);
+    margin-bottom: 10px;
+}
+
+#AboutMe1{
+    transform: rotate(-90deg);
+    font-size: 45px;
+    font-weight: 1000;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+#AboutMe2{
+    transform: rotate(90deg);
+    font-size: 45px;
+    font-weight: 1000;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+
+@media (orientation:portrait){
+    h3{
+        font-size: 18px;
+    }
+    p{
+        font-size: 10px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    #AboutMe1, #AboutMe2{
+        font-size: 22px;
+    }
+    
+
+}
