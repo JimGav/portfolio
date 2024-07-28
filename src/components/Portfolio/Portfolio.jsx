@@ -1,6 +1,10 @@
 import React from 'react'
 import "./Portfolio.css"
 import { FaGithub } from "react-icons/fa"
+import chessAI from "../../assets/chessai.PNG"
+import game1 from "../../assets/raylib_game.JPG"
+import game2 from "../../assets/raylib_game.JPG"
+import sv from "../../assets/sorting_visualizer.PNG"
 
 const Portfolio = () => {
 
@@ -12,7 +16,7 @@ const Portfolio = () => {
         <div className="portfolio-item">
         
           <div className='portfolio-item-desc'>
-            <h3>hess Engine</h3>
+            <h3>Chess Engine</h3>
             <p> Attending the course "Artificial Intelligence I", I was asked to solve <a href='http://ai.berkeley.edu/project_overview.html'> berkeley university's pacman project </a>
                 and it really ignited my curiosity. So as soon as I got the chance, I decided to build something similar for a game I love... chess. Even though I thought it would
                 be a lot harder than the pacman project, I managed to develop it up to a running stage pretty easily. But I do not stop here, I am aiming for something more advanced.
@@ -20,12 +24,12 @@ const Portfolio = () => {
             </p>
             <button onClick={() => location.href = "https://github.com/JimGav/ChessAI"}>Code <FaGithub size={40} /></button>
           </div>
-          <img src="../../assets/chessai.png" className='portfolio-item-img' ></img>
+          <img src={chessAI} className='portfolio-item-img' ></img>
         </div>
 
 
         <div className="portfolio-item">
-          <img src="../../assets/raylib_game.JPG" className='portfolio-item-img' ></img>
+          <img src={game1} className='portfolio-item-img' ></img>
           <div className='portfolio-item-desc'>
             <h3>C++ game/Physics simulator using raylib library</h3>
             <p>This is a simple C++ game/Physics simulator I made using the <a href="https://www.raylib.com/">raylib</a> library. I started this project in order to practice C++, but also to 
@@ -42,7 +46,7 @@ const Portfolio = () => {
             </p>
             <button onClick={() => location.href = "https://github.com/JimGav/raylib-arcade_game"}>Code <FaGithub size={40} /></button>
           </div>
-          <img src="../../assets/raylib_arcade_game.JPG" className='portfolio-item-img' ></img>
+          <img src={game2} className='portfolio-item-img' ></img>
         </div>
         <div className="portfolio-item">
           <div className='portfolio-item-desc'>
@@ -57,7 +61,7 @@ const Portfolio = () => {
             </div>
            
           </div>
-          <img src="../../assets/sorting_visualizer.png" className='portfolio-item-img' ></img>
+          <img src={sv} className='portfolio-item-img' ></img>
         </div>
       </div>
     </section>
