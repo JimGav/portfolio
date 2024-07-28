@@ -20,12 +20,12 @@ const Portfolio = () => {
             </p>
             <button onClick={() => location.href = "https://github.com/JimGav/ChessAI"}>Code <FaGithub size={40} /></button>
           </div>
-          <img src="/chessai.png" className='portfolio-item-img' ></img>
+          <img src="../../assets/chessai.png" className='portfolio-item-img' ></img>
         </div>
 
 
         <div className="portfolio-item">
-          <img src="src\assets\raylib_game.JPG" className='portfolio-item-img' ></img>
+          <img src="../../assets/raylib_game.JPG" className='portfolio-item-img' ></img>
           <div className='portfolio-item-desc'>
             <h3>C++ game/Physics simulator using raylib library</h3>
             <p>This is a simple C++ game/Physics simulator I made using the <a href="https://www.raylib.com/">raylib</a> library. I started this project in order to practice C++, but also to 
@@ -42,7 +42,7 @@ const Portfolio = () => {
             </p>
             <button onClick={() => location.href = "https://github.com/JimGav/raylib-arcade_game"}>Code <FaGithub size={40} /></button>
           </div>
-          <img src="src\assets\raylib_arcade_game.JPG" className='portfolio-item-img' ></img>
+          <img src="../../assets/raylib_arcade_game.JPG" className='portfolio-item-img' ></img>
         </div>
         <div className="portfolio-item">
           <div className='portfolio-item-desc'>
@@ -57,7 +57,7 @@ const Portfolio = () => {
             </div>
            
           </div>
-          <img src="src\assets\sorting_visualizer.png" className='portfolio-item-img' ></img>
+          <img src="../../assets/sorting_visualizer.png" className='portfolio-item-img' ></img>
         </div>
       </div>
     </section>
