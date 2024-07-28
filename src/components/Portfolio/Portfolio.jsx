@@ -20,7 +20,7 @@ const Portfolio = () => {
             </p>
             <button onClick={() => location.href = "https://github.com/JimGav/ChessAI"}>Code <FaGithub size={40} /></button>
           </div>
-          <img src="chessai.png" className='portfolio-item-img' ></img>
+          <img src="/chessai.png" className='portfolio-item-img' ></img>
         </div>
 
 
